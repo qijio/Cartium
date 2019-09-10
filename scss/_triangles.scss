@@ -1,0 +1,53 @@
+.tb1{
+    @extend %triangle;
+    left: -250px;
+    top: -100px;
+}
+.tr1{
+    @extend %triangle;
+    top: 220px;
+    transform: scaleX(-1);
+}
+
+.tb2{
+    @extend %triangle;
+    right: -250px;
+    top: 0;
+    transform: scaleX(-1);
+}
+.tr2{
+    @extend %triangle;
+    right: 50px;
+    top: -20px;
+}
+
+.tb3{
+    @extend %triangle;
+    left: -250px;
+    top: -100px;
+}
+.tr3{
+    @extend %triangle;
+    left: 200px;
+    top: 150px;
+}
+
+.tb4{
+    @extend %triangle;
+    right: -250px;
+    top: 0;
+    transform: scaleX(-1);
+}
+.tr4{
+    @extend %triangle;
+    right: 50px;
+    top: -20px;
+    transform: scaleX(-1);
+}
+
+%triangle{
+    z-index: -10;
+    position: absolute;    
+    user-select: none;
+    pointer-events: none;
+}

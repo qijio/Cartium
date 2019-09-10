@@ -1,0 +1,124 @@
+.text-grad{
+    display: inline-block;
+    background: $bgGrad;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.head svg image{
+    pointer-events: none;
+}
+
+.svgDefault{
+    stroke: transparent;
+    stroke-opacity: .7;
+    stroke-width: 4;
+    fill: rgba(255, 255, 255, 0.1);
+    transition: all .2s ease-in-out;
+    &:focus,
+    &:hover {
+        stroke-opacity: 1;
+        filter: url(#brightness);
+    }
+}
+
+.svgBorderWhite{
+    stroke-opacity: .5;
+    stroke: white;
+}
+.svgBorderBlue{
+    stroke-opacity: 1;
+    stroke: url(#grBlue);
+}
+.svgBorderRed{
+    stroke-opacity: 1;
+    stroke: url(#grRed);
+}
+
+.svgBgBlue{
+    fill: url(#grBlue);
+}
+.svgBgRed{
+    fill: url(#grRed);
+}
+
+.svgText{
+    fill:white;
+    font-size: 28px;
+    text-transform: uppercase;
+    pointer-events: none;
+}
+
+.slider {
+    appearance: none;
+    width: 100%;
+    border: none;
+    border-radius: 20px;
+    border-color: transparent;
+    background: transparent;
+    outline: none;
+    opacity: 1;
+    transition: all .2s; 
+    &::-webkit-slider-thumb {
+        appearance: none;
+        width: 20px;
+        height: 25px;
+        border-radius: 50%;
+        background: white;
+        box-shadow: -1010px 0 0 1000px $pink;
+        cursor: pointer;
+    }
+    &::-webkit-slider-runnable-track {
+        border-radius: 20px;
+        height: 20px;
+        overflow: hidden;
+        background: gray;
+        color: $pink;
+    }
+    
+    &::-moz-range-thumb {
+        appearance: none;
+        width: 25px;
+        height: 25px;
+        border-radius: 50%;
+        border-color: transparent;
+        background: white;
+        cursor: pointer;
+    }
+    &::-moz-range-progress {
+        height: 20px;
+        border-radius: 20px 15px 15px 20px;
+        background-color: $pink; 
+    }
+    &::-moz-range-track {  
+        height: 20px;
+        border-radius: 20px;
+        background-color: gray;
+    }
+    
+    &::-ms-track{
+        height: 20px;
+        border-radius: 20px;
+        color: transparent;
+    }
+    &::-ms-thumb{
+        width: 20px;
+        height: 20px;
+        box-shadow: none;
+        border-radius: 50%;
+        border-color: transparent;
+        background: white;
+        cursor: pointer;
+    }
+    &::-ms-fill-lower {
+        background-color: $pink; 
+        border-radius: 20px 0 0 20px;
+    }
+    &::-ms-fill-upper {  
+        background-color: gray;
+        border-radius: 0 20px 20px 0;
+    }
+    &::-ms-tooltip {
+        display: none;
+    }
+}

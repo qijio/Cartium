@@ -1,1 +1,439 @@
-<div id="root"></div>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" 
+        integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./css/main.min.css">
+
+    <title>ICO Cartium</title>
+</head>
+<body class="body">
+    <nav class="navbar navbar-expand-xl sticky-top navbar-dark bg-black px-5 py-3">  
+        <a class="navbar-brand" href="#">
+            <img class="logo" src="images/header-logo.svg" width="80" height="60" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
+            <div class="navbar-nav text-uppercase">
+                <a class="nav-item nav-link text-light mx-3" href="#">Road map</a>
+                <a class="nav-item nav-link text-light mx-3" href="#">About</a>
+                <a class="nav-item nav-link text-light mx-3" href="#">Features</a>
+                <a class="nav-item nav-link text-light mx-3" href="#">Stages</a>
+                <a class="nav-item nav-link text-light ml-3" href="#">Buy tokens</a>
+            </div>
+            <div class="navbar-nav">
+                <div class="dropdown mx-3 ml-xl-0">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        ENG
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-right" style="min-width:0;" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item btn-danger pl-3" href="./RU/">RUS</a>
+                        <a class="dropdown-item btn-danger pl-3" href="./CH/">CH</a>
+                    </div>
+                </div >
+                <div class="nav-item d-flex">
+                <button class="
+                btn-border-grad btn-lg 
+                text-light text-left mr-3 pb-0 pt-1 pl-3 pr-2
+                d-flex align-items-center" href="#">
+                    <h6 class="d-inline-block">White paper
+                        <br><small class="text-muted">Download 9 Mb</small>
+                    </h6> 
+                    <img class="ml-1 mb-1" src="images/download.svg" width="23" alt="">
+                </button>
+                <button class="btn-grad btn-lg px-4" href="#">Join</button></div>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <svg height="0">
+            <defs>
+                <polygon id="triangle" points="0,0 200,100 0,200" vector-effect="non-scaling-stroke"/>
+                <clipPath id="clipTriangle"><use xlink:href="#triangle"/></clipPath>
+
+                <polygon id="diamond" points="0,100 200,0 400,100 200,200" vector-effect="non-scaling-stroke" />
+                <clipPath id="clipDiamond"><use xlink:href="#diamond"/></clipPath>
+
+                <linearGradient id="grRed" gradientUnits="objectBoundingBox" gradientTransform="rotate(90)">
+                    <stop stop-color="#FC2027"/>
+                    <stop offset="1" stop-color="#F52493"/>
+                </linearGradient>
+                <linearGradient id="grBlue" gradientUnits="objectBoundingBox" gradientTransform="rotate(90)">
+                  <stop stop-color="#245CE4"/>
+                  <stop offset="1" stop-color="#18DBDD"/>
+                </linearGradient>
+
+                <filter id="brightness">
+                    <feComponentTransfer>
+                      <feFuncR type="linear" slope="1.5"/>
+                      <feFuncG type="linear" slope="1.5"/>
+                      <feFuncB type="linear" slope="1.5"/>
+                    </feComponentTransfer>
+                  </filter>
+            </defs>
+        </svg>
+
+        <div class="head">
+            <div class="container-fluid text-light p-5">
+                <div class="row">
+                    <div class="col-lg-5">
+                        <h1 class="display-1 text-pink font-weight-bold">CARTIUM</h1>
+                        <h2 class="font-weight-light mt-3 pb-5">Crypto terminals
+                        <div class="pt-2">based on a network of payment terminals</span></h2>
+                        <h1 class="display-4 pt-5">Total</h1>
+                        <h1 class="display-3 text-grad font-weight-normal pb-2">$ 2,000,000</h1><br>
+                        <div class="d-inline-block text-muted">
+                            Soft cap <br>
+                            $ 3,000,000</div>
+                        <div class="d-inline-block text-muted ml-5">
+                            Hard cap <br>
+                            $ 6,000,000</div>
+                    </div>
+                    <div class="col-lg-7" style="margin-right: -200px;">
+                        <div class="row mb-1">
+                            <div class="col d-flex align-items-center">
+                                <svg width="25%" viewBox="0 0 400 200" class="px-1"></svg>
+                                <svg width="6.25%" viewBox="0 0 200 200" class="align-self-start">
+                                    <use xlink:href="#triangle" clip-path="url(#clipTriangle)" class="svgDefault svgBorderBlue"/>
+                                </svg>
+                                <svg width="31.25%" height="0"></svg>
+                                <svg width="12.5%" viewBox="0 0 200 200" class="px-1">
+                                    <use xlink:href="#triangle" clip-path="url(#clipTriangle)" class="svgDefault svgBorderRed"/>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="row mb-1"  style="transform:translateY(-50%);">
+                            <div class="col d-flex align-items-center">
+                                <svg width="12.5%" viewBox="0 0 200 200" class="px-1">
+                                    <use xlink:href="#triangle" clip-path="url(#clipTriangle)" class="svgDefault svgBorderBlue "/>
+                                </svg>
+                                <svg width="12.5%" viewBox="0 0 200 200" class="px-1">
+                                    <use xlink:href="#triangle" clip-path="url(#clipTriangle)" transform="rotate(180, 100, 100)" class="svgDefault svgBorderWhite svgBgRed"/>
+                                    <image  x="75%" y="48%" height="70" width="70" transform="translate(-35, -60)" xlink:href="./images/p2p.svg" />
+                                    <text text-anchor="middle" x="150" y="145" class="svgText">P2P</text>
+                                </svg>
+                                <svg width="12.5%" height="0"></svg>
+                                <svg width="25%" viewBox="0 0 400 200" class="px-1">
+                                    <use xlink:href="#diamond" clip-path="url(#clipDiamond)" class="svgDefault svgBorderWhite"/>
+                                    <image  x="50%" y="48%" height="70" width="70" transform="translate(-35, -60)" xlink:href="./images/mining.svg" />
+                                    <text text-anchor="middle" x="200" y="145" class="svgText">Mining</text>
+                                </svg>
+                                <svg width="25%" viewBox="0 0 400 200" class="px-1">
+                                    <use xlink:href="#diamond" clip-path="url(#clipDiamond)" class="svgDefault svgBorderWhite"/>
+                                    <image  x="50%" y="45%" height="60" width="60" transform="translate(-30, -60)" xlink:href="./images/analytics.svg" />
+                                    <text text-anchor="middle" x="200" y="120" class="svgText">Cart</text>
+                                    <text text-anchor="middle" x="200" y="150" class="svgText">analytics</text>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="row" style="transform:translateY(-100%);">
+                            <div class="col d-flex align-items-center">
+                                <svg width="25%" viewBox="0 0 400 200" class="px-1">
+                                    <use xlink:href="#diamond" clip-path="url(#clipDiamond)" class="svgDefault svgBorderWhite svgBgBlue"/>
+                                    <image  x="50%" y="48%" height="70" width="70" transform="translate(-35, -60)" xlink:href="./images/cart.svg" />
+                                    <text text-anchor="middle" x="200" y="145" class="svgText">Cart</text>
+                                </svg>
+                                <svg width="25%" viewBox="0 0 400 200" class="px-1">
+                                    <use xlink:href="#diamond" clip-path="url(#clipDiamond)" class="svgDefault svgBorderWhite"/>
+                                    <image  x="50%" y="48%" height="70" width="70" transform="translate(-35, -60)" xlink:href="./images/rob.svg" />
+                                    <text text-anchor="middle" x="200" y="145" class="svgText">Blockchain</text>
+                                </svg>
+                                <svg width="25%" viewBox="0 0 400 200" class="px-1">
+                                    <use xlink:href="#diamond" clip-path="url(#clipDiamond)" class="svgDefault svgBorderWhite"/>
+                                    <image  x="50%" y="48%" height="70" width="70" transform="translate(-35, -60)" xlink:href="./images/exchange.svg" />
+                                    <text text-anchor="middle" x="200" y="145" class="svgText">Exchange</text>
+                                </svg>
+                                <svg width="12.5%" viewBox="0 0 200 200" class="px-1">
+                                    <use xlink:href="#triangle" clip-path="url(#clipTriangle)" transform="rotate(180, 100, 100)" class="svgDefault svgBorderWhite"/>
+                                    <image  x="75%" y="48%" height="70" width="70" transform="translate(-35, -60)" xlink:href="./images/plc.svg" />
+                                    <text text-anchor="middle" x="150" y="145" class="svgText">PLC</text>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="row" style="transform:translateY(-100%);">
+                            <div class="col d-flex align-items-start">
+                                <svg width="31.25%" height="0"></svg>
+                                <svg width="6.25%" viewBox="0 0 200 200" class="px-1">
+                                    <use xlink:href="#triangle" clip-path="url(#clipTriangle)" transform="rotate(180, 100, 100)" class="svgDefault svgBorderRed"/>
+                                </svg>
+                                <svg width="6.25%" viewBox="0 0 200 200" class="px-1">
+                                    <use xlink:href="#triangle" clip-path="url(#clipTriangle)" class="svgDefault svgBorderBlue"/>
+                                </svg>
+                                <svg width="12.5%" viewBox="0 0 200 200" class="px-1"></svg>
+                                <svg width="6.25%" viewBox="0 0 200 200" class="px-1">
+                                    <use xlink:href="#triangle" clip-path="url(#clipTriangle)" transform="rotate(180, 100, 100)" class="svgDefault svgBorderBlue"/>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="row" style="transform:translateY(-100%);">
+                            <div class="col d-flex align-items-center">
+                                <div class="col d-flex flex-column align-items-center" width="87.5%">
+                                    <div class="d-flex justify-content-between text-muted w-100">
+                                        <div>Pre sale<br>$ 1,000,000</div>
+                                        <div class="text-right">Hard cap<br>$ 6,000,000</div>
+                                    </div>
+                                    <input type="range" min="1" max="100" value="30" class="slider px-3" id="myRange">
+                                    <div class="d-flex justify-content-between align-items-center text-muted text-center text-uppercase w-100">
+                                        <div>Start</div>
+                                        <div>Cart</div>
+                                        <div>P2P</div>
+                                        <div>Blockchain</div>
+                                        <div>Mining</div>
+                                        <div>Exchange</div>
+                                        <div>Cart<br>analytics</div>
+                                    </div>
+                                </div>
+                                <svg width="12.5%" viewBox="0 0 200 200" class="px-1"></svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="about">
+            <div class="container-fluid text-light p-5">
+                <div class="row">
+                    <div class="col-lg-4 d-none d-lg-block">
+                        <img class="tb1" src="images/blue-triangle.svg" width="700" height="600" draggable="false" alt="">
+                        <img class="tr1" src="images/red-triangle.svg" width="250" height="275" draggable="false" alt="">
+                    </div>
+                    <div class="col-lg-8">
+                        <h1 class="behind-about display-4 font-weight-bold text-uppercase py-5">What is <span class="text-pink">Cartium</span> ?</h1>
+                        Receiving revenue from the sale of advertising on the additional monitor of the terminal. 
+                        Including, advertising ICO, which is prohibited in many advertising networks (Facebook, Google, etc.).
+                        <br><br>
+                        The proposed model allows the financing of ICO on the same terminal, 
+                        which will significantly expand the target audience of the ICO.
+                        <br><br>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="features">
+            <div class="container-fluid text-light p-5">
+                <div class="row">
+                    <div class="col-xl-8">
+                        <h1 class="behind-features display-4 font-weight-bold text-uppercase py-5">Possibilities of the <span class="text-pink">Cartium</span></h1>
+                        We already have currently running projects based on algorithms for automatic trading on cryptomarkets, 
+                        they gave us a great and valuable experience and therefore we moved on to fulfill more ambitious goals. 
+                        <br><br>
+                        The ecosystem offers a complex of original solutions for:
+                        <div class="row py-5">
+                            <div class="col-md-6">
+                                <a class="card border-0 btn-grad-card mt-4" data-toggle="collapse" href="#collapseICO" role="button" draggable="false" >
+                                    <div class="card-body d-flex">
+                                        <img class="mr-3" src="images/ico.svg" height="65" width="65" alt="">
+                                        <div>
+                                            <h5 class="card-title">ICO</h5>
+                                            <p class="card-text">Micro ICO</p>
+                                        </div>
+                                    </div>
+                                    <div id="collapseICO" class="collapse card-footer bg-darker" aria-labelledby="headingOne">
+                                            Bloated budgets, fuzzy deadlines, a solid scam - the story of today's ICOs. 
+                                            Because they are large, clumsy hulks, which are impossible to keep track of. 
+                                            Age old solution: divide and conquer. Cartium creates and invites others to create microICO chains. 
+                                            microICO - it’s short terms, clear goals, small hard caps and a detailed 
+                                            report for the use of funds from previous stages.
+                                            <br>It's very simple. Try it.
+                                    </div>
+                                </a >
+                                <a class="card border-0 btn-grad-card mt-4" data-toggle="collapse" href="#collapsePBE" role="button" draggable="false">
+                                    <div class="card-body d-flex">
+                                        <img class="mr-3" src="images/pbe.svg" height="65" width="65" alt="">
+                                        <div>
+                                            <h5 class="card-title">PBE</h5>
+                                            <p class="card-text">Project-based Economy</p>
+                                        </div>
+                                    </div>
+                                    <div id="collapsePBE" class="collapse card-footer bg-darker" aria-labelledby="headingOne">
+                                            Everything is a project - from the garage sale to the creation of the state. 
+                                            Projects can include other projects and so on up to any level up and down. 
+                                            Using the power of transparency and control of the blockchain system and the 
+                                            convenience and simplicity of our concept, we in Cartium intend to help create Project-based Economy.
+                                            <br>Is it ambitious enough?
+                                    </div>
+                                </a>
+                                <a class="card border-0 btn-grad-card mt-4" data-toggle="collapse" href="#collapseCTC" role="button" draggable="false">
+                                    <div class="card-body d-flex">
+                                        <img class="mr-3" src="images/ctc.svg" height="65" width="65" alt="">
+                                        <div>
+                                            <h5 class="card-title">CTC</h5>
+                                            <p class="card-text">Conditional Transfer of Coins</p>
+                                        </div>
+                                    </div>
+                                    <div id="collapseCTC" class="collapse card-footer bg-darker" aria-labelledby="headingOne">
+                                            The smart-contract is out of date. Cartium offers a rethought simplified and more 
+                                            flexible format. Smart-contract without coding. A pair of bytes of additional information 
+                                            in the transaction, and we can create identifiable "batches" of coins, add conditions 
+                                            for the execution of the transaction, rollback of the transaction and its modification.
+                                            <br>What color do you want your next batch of coins?
+                                    </div>
+                                </a>
+                                <a class="card border-0 btn-grad-card mt-4" data-toggle="collapse" href="#collapseVBC" role="button" draggable="false">
+                                    <div class="card-body d-flex">
+                                        <img class="mr-3" src="images/vbc.svg" height="65" width="65" alt="">
+                                        <div>
+                                            <h5 class="card-title">VBC</h5>
+                                            <p class="card-text">Value-based Currency</p>
+                                        </div>
+                                    </div>
+                                    <div id="collapseVBC" class="collapse card-footer bg-darker" aria-labelledby="headingOne">
+                                            Sit on the shoulders to the giants. Multicurrency support and constant adjustment 
+                                            of the ratio of currencies in the index basket will help to maintain the overall 
+                                            basket index rate at a very low volatility level.
+                                            <br>Our goal and our promise: 1 v. u. = 1 $.
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-md-6">
+                                <a class="card border-0 btn-grad-card mt-4" data-toggle="collapse" href="#collapsePLC" role="button" draggable="false">
+                                    <div class="card-body d-flex">
+                                        <img class="mr-3" src="images/plc.svg" height="65" width="65" alt="">
+                                        <div>
+                                            <h5 class="card-title">PLC</h5>
+                                            <p class="card-text">Project Lifecycle</p>
+                                        </div>
+                                    </div>
+                                    <div id="collapsePLC" class="collapse card-footer bg-darker" aria-labelledby="headingOne">
+                                        Is there life after an ICO? Why are there less than 10 decentralized autonomous organizations, 
+                                        one of which led to hard fork of Ethereum blockchain? We offer lifecycle management of any project 
+                                        in Cartium with the help of Conditional Transfer of Coins and other mechanisms. Similarly, it 
+                                        becomes possible to keep the project’s records public, and this is the decentralized 
+                                        control of centralized institutions.
+                                        <br>A new level, ladies and gentlemen!
+                                    </div>
+                                </a>
+                                <a class="card border-0 btn-grad-card mt-4" data-toggle="collapse" href="#collapseROB" role="button" draggable="false">
+                                    <div class="card-body d-flex">
+                                        <img class="mr-3" src="images/rob.svg" height="65" width="65" alt="">
+                                        <div>
+                                            <h5 class="card-title">ROB</h5>
+                                            <p class="card-text">Readonly Blockchain</p>
+                                        </div>
+                                    </div>
+                                    <div id="collapseROB" class="collapse card-footer bg-darker" aria-labelledby="headingOne">
+                                            Separation of the processes of reading and writing is a standard mechanism for increasing 
+                                            the productivity and reliability of the system. This principle can also be applied to 
+                                            a blockchain system by creating a network of trusted nodes that will have the rights 
+                                            to write blocks that are generated and signed at other levels.
+                                            <br>Why has this never occurred to anyone?
+                                    </div>
+                                </a>
+                                <a class="card border-0 btn-grad-card mt-4" data-toggle="collapse" href="#collapseBEx" role="button" draggable="false">
+                                    <div class="card-body d-flex">
+                                        <img class="mr-3" src="images/bex.svg" height="65" width="65" alt="">
+                                        <div>
+                                            <h5 class="card-title">BEx</h5>
+                                            <p class="card-text">Built-in Exchange</p>
+                                        </div>
+                                    </div>
+                                    <div id="collapseBEx" class="collapse card-footer bg-darker" aria-labelledby="headingOne">
+                                            And what if we made a built-in mechanism for exchanging all pairs of currencies in the 
+                                            index basket? Easy, simple and fast conversion is the key to success and scaling of the system. 
+                                            This will allow to overcome barriers to entering the crypto market.
+                                            <br>Bread, milk and eggs? New car? A multimillion-dollar contract? In Cartium.
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4  d-none d-xl-block">
+                        <img class="tb2" src="images/blue-triangle.svg" width="910" height="850" draggable="false" alt="">
+                        <img class="tr2" src="images/red-triangle.svg" width="350" height="350" draggable="false" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="stages">
+            <div class="container-fluid text-light p-5">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <img class="tb3" src="images/blue-triangle.svg" width="700" height="600" draggable="false" alt="">
+                        <img class="tr3" src="images/red-triangle.svg" width="250" height="275" draggable="false" alt="">
+                    </div>
+                    <div class="col-lg-8">
+                        <h1 class="behind-stages display-4 font-weight-bold text-uppercase py-5"><span class="text-pink">Stage 3</span> in the process</h1>
+                        <br><br><br><br>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid text-light p-5">
+                <div class="row">
+                    <div class="col-lg-8">
+                        <h1 class="display-4 font-weight-bold text-pink py-5">BLOCKCHAIN</h1>
+                        <ul>
+                            <li>Closed launch of the service for the bit.team token owners (withdrawal of the tokens into the cryptocurrency exchange and selling opportunity)</li>
+                            <li>Tests and debugs</li>
+                            <li>Development of cross-platform applications</li>
+                            <li>Testing and debugging of the service</li>
+                            <li>Enhancement of the platform functionality</li>
+                            <li>Development of financial system and security systems</li>
+                            <li>Development of IT infrastructure</li>
+                            <li>Development of cross-platform applications to ensure access to the decentralized wallet for digital asset management</li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-4">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="ico">
+            <div class="container-fluid text-light p-5">
+                <div class="row">
+                    <div class="col-lg-8">
+                        <h1 class="behind-ico display-4 font-weight-bold text-uppercase py-5">some ico-related <span class="text-pink">header</span></h1>
+                    </div>
+                    <div class="col-lg-4">
+                            <img class="tb4" src="images/blue-triangle.svg" width="900" height="800" draggable="false" alt="">
+                            <img class="tr4" src="images/red-triangle.svg" width="350" height="350" draggable="false" alt="">
+                    </div>
+                </div>
+                <div class="jumbotron bg-grad-card py-3 px-5">
+                    <h1 class="display-4 font-weight-bold pb-3">ICO</h1>
+                    <p>iCO проводится в период с 12.00 часов 5 ноября 2018 г. до 12.00 часов 31 декабря 2018 г. (время UTC+03:00);<br>
+                        Будет выпущено 367 500 000 токенов;<br> 
+                        Базовый курс продажи устанавливается в размере 5 000 токенов AURUM за 1 ETH;<br>
+                        Минимальное количество токенов для покупки в рамках ICO: 100 AURUM (на сумму 0.02 ETH) <br>
+                        ICO считается состоявшимся при достижении мягкой отсечки (Soft Сap) в размере 2 000 ETH.
+                    </p>
+                </div>
+                <p class="text-muted">
+                    ICO будет проведено на платформе Ethereum с выпуском токена AURUM на ERC20.
+                    После запуска основной сети AURUM, реализованной с использованием технологии Graphene, 
+                    будет запущен обмен ERC20-токенов на core токен основной сети. 
+                    После этого ERC20 токены будут сожжены. 
+                    Обмен будет производиться в соотношении 1:1. 
+                </p>
+                <div class="d-flex justify-content-center">
+                    <button class="btn-border-grad btn-lg text-light" href="#">
+                        <h3 class="font-weight-light px-4 py-2">0xdB20fF5F9Ea23E77fC8921E696ac9A33992E3107</h2>
+                    </button>
+                </div>
+            </div>
+        </div>        
+    </main>
+
+    <footer>
+        <hr class="hr">
+        <div class="text-muted text-center mb-4">© 2018 Cartium</div>
+    </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" 
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" 
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" 
+        integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
+</body>
+</html>

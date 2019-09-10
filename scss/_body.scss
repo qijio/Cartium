@@ -1,0 +1,114 @@
+.body{
+    background: black;
+    font-size: 120%;
+    overflow-x: hidden;
+}
+
+.hr{
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid rgb(77, 77, 77);
+    margin: 1em 5%;
+    padding: 0; 
+}
+
+.bg-darker{
+    background: $dark;
+}
+
+.bg-grad{
+    background: $bgGrad;
+}
+
+.bg-grad-card{
+    background: $bgGradCard;
+}
+
+.btn-grad-card{
+    @extend %btn;
+    border: none;
+    user-select: text;
+    background: $bgGradCard;
+}
+
+.btn-grad{
+    @extend %btn;
+    border: none;
+    background: $bgGrad;
+}
+
+.btn-border-grad{
+    @extend %btn;
+    background: none;
+    border: 2px solid $pink;
+    &:focus,
+    &:hover,
+    &:active {
+        background:$dark;
+    }
+}
+
+.text-pink{
+    color: $pink;
+}
+
+.behind-about:before{
+    @extend %text-behind;
+    left: -200px;
+    content: 'ABOUT';
+}
+
+.behind-stages:before{
+    @extend %text-behind;
+    left: -200px;
+    content: 'STAGES';
+}
+
+.behind-features:before{
+    @extend %text-behind;
+    left: 300px;
+    content: 'FEATURES';
+}
+
+.behind-ico:before{
+    @extend %text-behind;
+    left: 600px;
+    content: 'ICO';
+}
+
+%text-behind{
+    position: absolute;
+    pointer-events: none;
+    top: -25px;
+    z-index: -5;
+    color: rgba(255, 255, 255, 0.20);
+    font-weight: bold;
+    font-size: 160px;
+    text-align: left;
+}
+
+%btn{
+    color: #fff;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all .1s ease-in-out;
+    &:focus {
+        filter: brightness(110%);
+        outline: none;
+        color: #fff;
+        text-decoration: inherit;
+    }
+    &:hover {
+        filter: brightness(125%);
+        outline: none;
+        color: #fff;
+        text-decoration: inherit;
+    }
+    &:active {
+        filter: brightness(95%);
+        outline: none;
+        color: #fff;
+        text-decoration: inherit;
+    }
+}

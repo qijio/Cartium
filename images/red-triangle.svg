@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 244 274">
+  <path stroke="url(#gr)" stroke-opacity=".7" stroke-width="6" vector-effect="non-scaling-stroke" d="M0 266.52V8.67a5 5 0 0 1 7.5-4.32L235.36 136.3a5 5 0 0 1-.09 8.7L7.42 270.9A5 5 0 0 1 0 266.51z" />
+  <defs>
+    <linearGradient id="gr" x2="1" gradientTransform="matrix(0 275 -243 0 243 0)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FC2027"/>
+      <stop offset="1" stop-color="#F52493"/>
+    </linearGradient>
+  </defs>
+</svg>

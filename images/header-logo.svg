@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 83 63">
+  <path fill="url(#gr)" d="M76.46 0a22.66 22.66 0 0 1-8.69 6.85 22.9 22.9 0 0 1-8.27 1.98l-37.28.01h-.11a13.83 13.83 0 0 0-9.17 23.59 13.87 13.87 0 0 0 9.82 4.04h36.42v8.85H22.76a22.9 22.9 0 0 1-16.1-6.65 22.56 22.56 0 0 1 0-32.03A22.85 22.85 0 0 1 21.68.02L22 0h54.46z" transform="translate(6.54 17.68)"/>
+  <path fill="url(#gr)" d="M76.46 45.32a22.67 22.67 0 0 0-8.69-6.86 22.9 22.9 0 0 0-8.27-1.97l-37.28-.02h-.11a13.83 13.83 0 0 1-9.17-23.58 13.87 13.87 0 0 1 9.82-4.05h36.42V0H22.76a22.9 22.9 0 0 0-16.1 6.64 22.56 22.56 0 0 0 0 32.04 22.85 22.85 0 0 0 15.02 6.62l.32.02h54.46z" transform="translate(6.54 17.68)"/>
+  <path fill="url(#gr)" d="M83 0a22.6 22.6 0 0 1-8.7 6.85c-2.1.95-4.35 1.57-6.64 1.84H28.3l-.53.03A31.78 31.78 0 0 0 .43 27.05 22.64 22.64 0 0 1 21.68.02L22 0h61z"/>
+  <defs>
+    <linearGradient id="gr" x2="1" gradientTransform="scale(75 45) rotate(90)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F23061">
+        <animate attributeName="stop-color" values="#F23061;#D92EC0;#F23061;" dur="4s" repeatCount="indefinite" />
+      </stop>
+      <stop stop-color="#F23061" offset="0">
+        <animate attributeName="offset" values="0;1;0;" dur="4s" repeatCount="indefinite" />
+      </stop>
+      <stop stop-color="#D92EC0" offset="1">
+        <animate attributeName="stop-color" values="#D92EC0;#F23061;#D92EC0;" dur="4s" repeatCount="indefinite" />
+      </stop>
+    </linearGradient>
+  </defs>
+</svg>

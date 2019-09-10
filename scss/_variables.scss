@@ -1,0 +1,8 @@
+$violet: #8815A4;
+$red: #FC2027;
+$pink: #F23061;
+$dark: #292729;
+
+$bgGrad: linear-gradient(120deg, $violet, $pink);
+$bgGradLight: linear-gradient(120deg, lighten($violet, 20%), lighten($pink, 20%));
+$bgGradCard: linear-gradient(158.77deg, rgba(225, 29, 135, 0.7) 3.82%, rgba(82, 79, 100, 0.63) 48.39%, rgba(29, 156, 225, 0.78) 88.74%);
